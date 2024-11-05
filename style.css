@@ -1,0 +1,129 @@
+            /* 아이콘 */
+            i{
+                color:gray;
+                font-size:2vw;
+            }
+
+            /* 그림 */
+            .circle_pic{
+                border-radius:50%;
+                border: solid gray 1px;
+
+                width:100%;
+                height:100%;
+            }
+            .profile_pic{
+                width:8vw;
+                height:8vw;
+            }
+            .highlight_pic{
+                width:4vw;
+                height:4vw;
+            }
+            
+            /* 최상단 */
+            .top{
+                border-bottom:gray 1px solid;
+                padding-top:0.5vw;
+                padding-bottom:0.5vw;
+                margin:5px;
+                display:grid;
+                grid-template-columns: 4fr 7fr 4fr;
+            }
+            .top input{
+                text-align: center;
+                font-size:3vw;
+                background-color: #eee7e7;
+                border:gray 1px solid;
+                border-radius: 3px;
+            }
+            .top img{
+                width:10vw;
+            }
+            .top_icon{
+                display:grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                padding-left:40px;
+                margin-top: auto;
+                margin-bottom: auto;
+            }
+
+            /* 프로필, 이름 */
+            .profile{
+                display:grid;
+                grid-template-columns: 1fr 3.5fr;
+                height:9vw;
+                padding-top: 0.5vw;
+            }
+            .profile_detail{
+                display:grid;
+                grid-template-rows: 1fr 1fr;
+                height:5vw;
+            }
+            #id{
+                font-size:2vw;
+                font-weight:100;
+            }
+            button{
+                font-size:2vw;
+                padding-left: 4vw;
+                padding-right: 4vw;
+                background-color:rgb(235, 230, 230);
+                border-radius:5%;
+                border:gray 1px solid;
+            }
+            .name{
+                font-size:2vw;
+            }
+            #link_name{
+                font-size:1.5vw;
+            }
+
+            /* 하이라이트 */
+            .highlight_area{
+                display:grid;
+                grid-template-columns: 6vw 6vw 1fr;
+            }
+            .highlight_name{
+                font-size:1vw;
+                height:3vw;
+            }
+            .highlight{
+                text-align: center;
+                margin-left:auto;
+                margin-right:auto;
+            }
+
+            /* 썸네일 상단 스탯바 */
+            #stat_bar{
+                font-size:2vw;
+                display:grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                border-top:1px gray solid;
+                border-bottom:1px gray solid;
+                padding-top:10px;
+                padding-bottom:10px;
+                margin-top: 5px;
+                margin-bottom: 3vw;
+            }
+            .stat{
+                text-align: center;
+            }
+
+            /* 게시글 썸네일 그리드 배치 */
+            .thumbnail_grid{
+                display:grid;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+            .thumbnail{
+                width:100%;
+            }
+
+            /* 썸네일 상단 아이콘 */
+            .thumbnail_icon{
+                text-align:center;
+                display:grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                margin-top: 15px;
+                margin-bottom:3vw;
+            }
